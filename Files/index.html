@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Geetanjali | Portfolio - Aspiring ECE Student</title>
+  <meta name="description"
+    content="Personal portfolio of Geetanjali, an Aspiring Electronics & Communication Engineering Student - Scrapbook, notebook and paper-cut inspired design." />
+
+  <!-- Google Fonts: Anek Telugu, Noto Sans Telugu, Outfit, Plus Jakarta Sans, Space Grotesk, Caveat, JetBrains Mono, Courier Prime -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Anek+Telugu:wght@400;500;600;700;800&family=Caveat:wght@600;700&family=Courier+Prime:ital,wght@0,400;0,700;1,400&family=JetBrains+Mono:wght@400;500;600;700&family=Noto+Sans+Telugu:wght@400;500;600;700&family=Outfit:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+    rel="stylesheet" />
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="style.css?v=2.0" />
+</head>
+
+<body>
+
+  <!-- =========================================================
+       1. FIXED STICKY NAVIGATION BAR (Pill Capsule)
+       ========================================================= -->
+  <header class="navbar-wrapper">
+    <nav class="navbar-capsule" id="mainNav">
+      <a href="#home" class="nav-item active" data-section="home">Home</a>
+      <span class="nav-divider">|</span>
+      <a href="#about" class="nav-item" data-section="about">About</a>
+      <span class="nav-divider">|</span>
+      <a href="#education" class="nav-item" data-section="education">Education</a>
+      <span class="nav-divider">|</span>
+      <a href="#projects" class="nav-item" data-section="projects">Projects</a>
+      <span class="nav-divider">|</span>
+      <a href="#skills" class="nav-item" data-section="skills">Skills</a>
+      <span class="nav-divider">|</span>
+      <a href="#contact" class="nav-item" data-section="contact">Contact</a>
+    </nav>
+  </header>
+
+  <main class="page-container">
+
+    <!-- =========================================================
+         2. HERO / HOME SECTION
+         ========================================================= -->
+    <section id="home" class="section hero-section">
+      <div class="hero-container">
+
+        <!-- Profile Stamp & Stickers Column (Left) -->
+        <div class="hero-media-wrapper">
+
+          <!-- Profile Image -->
+          <div class="profile-image-card" id="profileStamp">
+            <img src="assets/geetanjali.jpg" alt="Geetanjali - Aspiring ECE Student" class="profile-photo-img" />
+          </div>
+
+          <!-- Scrapbook Sticker: Graduation Cap -->
+          <div class="floating-sticker sticker-grad-cap" title="Academic Milestones">
+            <svg viewBox="0 0 100 80" width="95" height="76" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M50 8 L92 28 L50 48 L8 28 Z" fill="#1C1C1E" stroke="#FFFFFF" stroke-width="3" />
+              <path d="M26 38 V56 C26 64, 74 64, 74 56 V38" fill="#2C2C2E" stroke="#FFFFFF" stroke-width="3" />
+              <!-- Tassel -->
+              <path d="M50 28 L82 46 V65" stroke="#E63946" stroke-width="3" stroke-linecap="round" />
+              <circle cx="82" cy="67" r="4" fill="#E63946" />
+            </svg>
+          </div>
+
+          <!-- Scrapbook Sticker: Retro PC with 'View Projects' Screen -->
+          <a href="#projects" class="floating-sticker sticker-retro-pc" title="Click to view projects">
+            <svg viewBox="0 0 120 110" width="110" height="100" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <!-- Monitor Body -->
+              <rect x="15" y="10" width="90" height="70" rx="6" fill="#F4EFE6" stroke="#1E1E1E" stroke-width="3" />
+              <rect x="25" y="18" width="70" height="48" rx="4" fill="#1E293B" stroke="#1E1E1E" stroke-width="2" />
+              <!-- Screen content -->
+              <rect x="30" y="24" width="60" height="36" rx="2" fill="#0EA5E9" fill-opacity="0.2" />
+              <text x="60" y="44" fill="#38BDF8" font-family="'Courier Prime', monospace" font-size="9"
+                font-weight="bold" text-anchor="middle">View</text>
+              <text x="60" y="55" fill="#38BDF8" font-family="'Courier Prime', monospace" font-size="8"
+                font-weight="bold" text-anchor="middle">Projects ⚡</text>
+              <!-- Stand and Base -->
+              <path d="M48 80 L72 80 L78 92 L42 92 Z" fill="#E2DAC9" stroke="#1E1E1E" stroke-width="3" />
+              <rect x="28" y="92" width="64" height="10" rx="3" fill="#D5CBB6" stroke="#1E1E1E" stroke-width="3" />
+            </svg>
+          </a>
+        </div>
+
+        <!-- Hero Content / Introduction Column (Right) -->
+        <div class="hero-content">
+
+          <!-- Cultural / Greeting Tag -->
+          <!-- EDIT HERE: Customize greeting if desired -->
+          <div class="greeting-wrapper">
+            <span class="greeting-script">నమస్తే _</span>
+          </div>
+
+          <!-- Giant Paper Cutout Name -->
+          <!-- EDIT HERE: Change your name inside the yellow badge! -->
+          <div class="hero-name-container">
+            <h1 class="hero-title">
+              <span class="title-prefix">I AM</span>
+              <span class="name-paper-badge">
+                <span class="highlight-text">GEETANJALI</span>
+                <span class="pin-dot"></span>
+              </span>
+            </h1>
+          </div>
+
+          <!-- Professional Tagline / Role -->
+          <!-- EDIT HERE: Modify your bio tagline -->
+          <div class="hero-role-wrapper">
+            <p class="hero-subtitle">
+              An Aspiring <span class="highlight-pill">ECE Student</span> | Learning, Growing & Building for the Future
+            </p>
+          </div>
+
+          <!-- Decorative Circuit Doodle Line -->
+          <div class="circuit-doodle">
+            <svg viewBox="0 0 380 30" width="100%" height="30" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M0 15 H90 L105 25 H180 L195 5 H270 L285 15 H380" stroke="#B8AFA0" stroke-width="2"
+                stroke-dasharray="6 4" />
+              <circle cx="90" cy="15" r="4" fill="#F97316" stroke="#1E1E1E" stroke-width="2" />
+              <circle cx="180" cy="25" r="4" fill="#FBBF24" stroke="#1E1E1E" stroke-width="2" />
+              <circle cx="270" cy="5" r="4" fill="#10B981" stroke="#1E1E1E" stroke-width="2" />
+            </svg>
+          </div>
+
+          <!-- Action CTA Buttons -->
+          <div class="hero-cta-group">
+            <a href="#about" class="btn paper-btn primary-btn">
+              <span class="btn-icon">📌</span> About Me
+            </a>
+            <a href="#projects" class="btn paper-btn secondary-btn">
+              <span class="btn-icon">📂</span> Explore Projects
+            </a>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =========================================================
+         3. ABOUT SECTION
+         ========================================================= -->
+    <section id="about" class="section about-section">
+      <div class="section-header">
+        <h2 class="section-title">About Me</h2>
+        <div class="title-underline"></div>
+      </div>
+
+      <div class="about-card-wrapper">
+        <div class="scrapbook-card about-card">
+          <!-- Tape accents in top corners -->
+          <div class="tape-strip tape-top-left"></div>
+          <div class="tape-strip tape-top-right"></div>
+
+          <div class="about-card-body">
+
+            <div class="about-quote-mark">“</div>
+
+            <!-- EDIT HERE: Customize your personal summary if desired -->
+            <p class="about-intro-text">
+              I believe the best ideas come to life when hardware meets software. As an ECE student, I enjoy
+              exploring electronics, embedded systems, IoT, and robotics
+              while also learning web development to connect my hardware projects with the digital world. I’m passionate
+              about building meaningful projects, gaining knowledge,
+              and turning ideas into technology that makes life smarter and happier.
+
+            </p>
+
+            <div class="about-divider-sketch"></div>
+
+            <div class="about-interests-block">
+              <h3 class="interests-heading">
+                <span class="icon">🏷️</span> Areas of Interest & Fascination:
+              </h3>
+
+              <!-- Interest Tags with cute paper style -->
+              <div class="tags-container">
+                <div class="interest-tag tag-orange">
+                  <span class="tag-dot"></span>
+                  <span class="tag-title">⚡ Electronics</span>
+                </div>
+                <div class="interest-tag tag-green">
+                  <span class="tag-dot"></span>
+                  <span class="tag-title">📡 IoT (Internet of Things)</span>
+                </div>
+                <div class="interest-tag tag-yellow">
+                  <span class="tag-dot"></span>
+                  <span class="tag-title">📟 Embedded Systems</span>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================
+         4. EDUCATION SECTION (Connected Timeline)
+         ========================================================= -->
+    <section id="education" class="section education-section">
+      <div class="section-header">
+        <h2 class="section-title">Education</h2>
+        <div class="title-underline"></div>
+        <p class="section-intro-note">Academic milestones connecting foundation to engineering.</p>
+      </div>
+
+      <div class="timeline-container">
+
+        <!-- Connecting Curved Wavy Dotted Path (SVG) -->
+        <div class="timeline-svg-wrapper">
+          <svg class="timeline-curve" viewBox="0 0 1100 320" fill="none" preserveAspectRatio="none"
+            xmlns="http://www.w3.org/2000/svg">
+            <path d="M 180 180 C 320 280, 480 310, 550 220 C 620 130, 800 120, 920 180" stroke="#C5BAA5"
+              stroke-width="2.5" stroke-dasharray="8 6" />
+          </svg>
+        </div>
+
+        <!-- 3 Connected Education Milestone Cards -->
+        <div class="timeline-cards-grid">
+
+          <!-- Milestone 1: Secondary School (Higher Left) -->
+          <div class="timeline-item card-pos-1">
+            <div class="paper-card edu-card">
+              <div class="card-year-tag">2020 — 2021</div>
+              <h3 class="edu-degree">Secondary School Education</h3>
+              <div class="edu-meta-badge">SSC</div>
+              <p class="edu-institute">Bhashyam High School · <span>Adoni, India</span></p>
+            </div>
+            <!-- Node Pin -->
+            <div class="timeline-node-pin">
+              <span class="node-inner-dot"></span>
+            </div>
+          </div>
+
+          <!-- Milestone 2: Intermediate Education (Lower Center) -->
+          <div class="timeline-item card-pos-2">
+            <!-- Node Pin -->
+            <div class="timeline-node-pin">
+              <span class="node-inner-dot"></span>
+            </div>
+            <div class="paper-card edu-card">
+              <div class="card-year-tag">2021 — 2023</div>
+              <h3 class="edu-degree">Intermediate Education</h3>
+              <div class="edu-meta-badge">MPC – Mathematics, Physics & Chemistry</div>
+              <p class="edu-institute">Akshara Sree Junior College</p>
+            </div>
+          </div>
+
+          <!-- Milestone 3: B.Tech in ECE (Higher Right) -->
+          <div class="timeline-item card-pos-3">
+            <div class="paper-card edu-card active-card">
+              <div class="card-year-tag orange-tag">2023 — 2027 </div>
+              <h3 class="edu-degree">Bachelor of Technology</h3>
+              <div class="edu-meta-badge">Electronics and Communication Engineering</div>
+              <p class="edu-institute">G. Pulla Reddy Engineering College · <span>Kurnool, India</span></p>
+            </div>
+            <!-- Node Pin -->
+            <div class="timeline-node-pin">
+              <span class="node-inner-dot"></span>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =========================================================
+         5. PROJECTS SECTION (Stamp & Ticket Style Cards)
+         ========================================================= -->
+    <section id="projects" class="section projects-section">
+      <div class="section-header">
+        <h2 class="section-title">Projects</h2>
+        <div class="title-underline"></div>
+        <p class="section-intro-note">Creative paper & ticket-style project showcases.</p>
+      </div>
+
+      <div class="projects-grid">
+
+        <!-- ===================================================
+             PROJECT 1: Hexapod Robot (ESP32)
+             =================================================== -->
+        <div class="project-ticket-card">
+          <!-- Serrated Stamp Border Top -->
+          <div class="ticket-sawtooth-edge top-edge"></div>
+
+          <div class="project-inner-content">
+            <!-- Project Meta Link -->
+            <div class="project-tag-pill">
+              <span>Hexapod - IoT Monitoring</span>
+            </div>
+
+            <h3 class="project-title">Hexapod Robot for Environmental Monitoring</h3>
+
+            <p class="project-description">
+              A 6-legged robot designed to monitor the environment. It controls 18 servo motors and sends sensor data to
+              the cloud in real time.
+            </p>
+
+            <div class="project-specs-list">
+              <div class="spec-item"><strong>Controller:</strong> ESP32 Microcontroller</div>
+              <div class="spec-item"><strong>Motors:</strong> 18 Servo Motors + Dual PCA9685 Drivers</div>
+              <div class="spec-item"><strong>Telemetry:</strong> ThingSpeak Cloud Integration</div>
+            </div>
+
+            <div class="project-tech-chips">
+              <span class="chip">ESP32</span>
+              <span class="chip">PCA9685</span>
+              <span class="chip">ThingSpeak</span>
+              <span class="chip">18 Servos</span>
+              <span class="chip">IoT</span>
+            </div>
+
+            <div class="project-card-footer">
+              <a href="https://github.com/Malavegeetanjali0481/HexaGLAM_K" target="_blank" rel="noopener noreferrer"
+                class="btn project-action-btn">
+                <span>View Project</span> <span class="arrow">→</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- Serrated Stamp Border Bottom -->
+          <div class="ticket-sawtooth-edge bottom-edge"></div>
+        </div>
+
+        <!-- ===================================================
+             PROJECT 2: AI Mental Health Fitness Tracker
+             =================================================== -->
+        <div class="project-ticket-card">
+          <div class="ticket-sawtooth-edge top-edge"></div>
+
+          <div class="project-inner-content">
+            <div class="project-tag-pill">
+              <span>Mental Health - AI / ML</span>
+            </div>
+
+            <h3 class="project-title">AI-Based Mental Health Fitness Tracker</h3>
+
+            <p class="project-description">
+              A machine learning-based health tracking system that analyzes human health data and helps monitor health
+              conditions.
+            </p>
+
+            <div class="project-specs-list">
+              <div class="spec-item"><strong>Tools Used:</strong> Python, Google Colab, Kaggle Dataset</div>
+              <div class="spec-item"><strong>Focus:</strong> Mental Wellness & Stress Optimization</div>
+            </div>
+
+            <div class="project-tech-chips">
+              <span class="chip">Python</span>
+              <span class="chip">Google Colab</span>
+              <span class="chip">Kaggle</span>
+              <span class="chip">Machine Learning</span>
+              <span class="chip">Analytics</span>
+            </div>
+
+            <div class="project-card-footer">
+              <a href="https://github.com/Malavegeetanjali0481/Aicte_Edunet_AI_ML/blob/main/ML_Project1.ipynb"
+                target="_blank" rel="noopener noreferrer" class="btn project-action-btn">
+                <span>View Project</span> <span class="arrow">→</span>
+              </a>
+            </div>
+          </div>
+
+          <div class="ticket-sawtooth-edge bottom-edge"></div>
+        </div>
+
+        <!-- ===================================================
+             PROJECT 3: AWS Cloud Projects
+             =================================================== -->
+        <div class="project-ticket-card">
+          <div class="ticket-sawtooth-edge top-edge"></div>
+
+          <div class="project-inner-content">
+            <div class="project-tag-pill">
+              <span>HealthcareAI</span>
+            </div>
+
+            <h3 class="project-title">Arogya Mitra</h3>
+
+            <p class="project-description">
+              Created a simple healthcare website that provides health-related information, services, and an easy-to-use
+              interface for users.
+            </p>
+
+            <div class="project-specs-list">
+              <div class="spec-item"><strong>Frontend:</strong> HTML, CSS & JavaScript</div>
+              <div class="spec-item"><strong>Features:</strong> Healthcare Information, Services & User-Friendly
+                Navigation</div>
+            </div>
+
+            <div class="project-tech-chips">
+              <span class="chip">HTML</span>
+              <span class="chip">CSS</span>
+              <span class="chip">JavaScript</span>
+            </div>
+
+            <div class="project-card-footer">
+              <a href="https://malavegeetanjali0481.github.io/HealthCareAI/" target="_blank" rel="noopener noreferrer"
+                class="btn project-action-btn" title="Open Arogya Mithra Live Demo">
+                <span>View Project</span> <span class="arrow">→</span>
+              </a>
+            </div>
+          </div>
+
+          <div class="ticket-sawtooth-edge bottom-edge"></div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =========================================================
+         6. SKILLS SECTION
+         ========================================================= -->
+    <section id="skills" class="section skills-section">
+      <div class="section-header">
+        <h2 class="section-title">Skills</h2>
+        <div class="title-underline"></div>
+        <p class="section-intro-note">Technical toolkit, hardware kits, and cloud platforms.</p>
+      </div>
+
+      <div class="skills-board">
+
+        <!-- Skill Category 1: Hardware & Embedded -->
+        <div class="skill-category-card card-craft-1">
+          <div class="paper-pin-badge">📌</div>
+          <h3 class="skill-group-title">Hardware & Embedded</h3>
+          <div class="skills-tag-list">
+            <div class="skill-item-tag"><span class="bullet">▪</span> ESP32</div>
+            <div class="skill-item-tag"><span class="bullet">▪</span> Arduino</div>
+            <div class="skill-item-tag"><span class="bullet">▪</span> Embedded Systems</div>
+            <div class="skill-item-tag"><span class="bullet">▪</span> IoT</div>
+            <div class="skill-item-tag"><span class="bullet">▪</span> Dual PCA9685 Drivers</div>
+            <div class="skill-item-tag"><span class="bullet">▪</span> Sensor Interfacing</div>
+          </div>
+        </div>
+
+        <!-- Skill Category 2: Programming & Web -->
+        <div class="skill-category-card card-craft-2">
+          <div class="paper-pin-badge">📌</div>
+          <h3 class="skill-group-title">Programming & Web</h3>
+          <div class="skills-tag-list">
+            <div class="skill-item-tag"><span class="bullet">▪</span> C Programming</div>
+            <div class="skill-item-tag"><span class="bullet">▪</span> HTML</div>
+            <div class="skill-item-tag"><span class="bullet">▪</span> CSS</div>
+            <div class="skill-item-tag"><span class="bullet">▪</span> Python</div>
+            <div class="skill-item-tag"><span class="bullet">▪</span> Java Basics</div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =========================================================
+         7. CONTACT SECTION (Interactive Memo Cards Spread)
+         ========================================================= -->
+    <section id="contact" class="section contact-section">
+      <div class="section-header">
+        <h2 class="section-title">Contact</h2>
+        <div class="title-underline"></div>
+        <p class="section-intro-note">
+          Get in touch or connect with me across platforms — click any note to copy or visit.
+        </p>
+      </div>
+
+      <div class="contact-cards-spread">
+
+        <!-- Card 1: LinkedIn -->
+        <!-- EDIT HERE: Replace data-link with your LinkedIn profile link! -->
+        <div class="contact-memo-card tear-slip memo-yellow" data-type="link"
+          data-link="https://www.linkedin.com/in/malave-geetanjali-a57207343/"
+          data-info="https://www.linkedin.com/in/malave-geetanjali-a57207343/" title="Click to open LinkedIn">
+          <div class="memo-tape tape-yellow"></div>
+          <div class="memo-icon-bubble">🔗</div>
+          <h3 class="slip-name memo-title">LinkedIn</h3>
+          <p class="memo-detail">Connect on LinkedIn</p>
+          <div class="memo-action-btn">
+            <span>Connect</span>
+            <span class="action-arrow">↗</span>
+          </div>
+        </div>
+
+        <!-- Card 2: Email -->
+        <!-- EDIT HERE: Replace data-info with your real email address! -->
+        <div class="contact-memo-card tear-slip memo-pink" data-type="copy" data-info="malavegeetanjali09@gmail.com"
+          title="Click to copy email address">
+          <div class="memo-tape tape-pink"></div>
+          <div class="memo-icon-bubble">✉️</div>
+          <h3 class="slip-name memo-title">Email</h3>
+          <p class="memo-detail memo-hidden-text">••••••••••••@gmail.com</p>
+          <div class="memo-action-btn">
+            <span>Copy Email</span>
+            <span class="action-icon">✂</span>
+          </div>
+        </div>
+
+        <!-- Card 3: Phone -->
+        <!-- EDIT HERE: Replace data-info with your phone number! -->
+        <div class="contact-memo-card tear-slip memo-blue" data-type="copy" data-info="+919390746472"
+          title="Click to copy phone number">
+          <div class="memo-tape tape-blue"></div>
+          <div class="memo-icon-bubble">📞</div>
+          <h3 class="slip-name memo-title">Phone</h3>
+          <p class="memo-detail memo-hidden-text">+91 ••••• •••••</p>
+          <div class="memo-action-btn">
+            <span>Copy Number</span>
+            <span class="action-icon">✂</span>
+          </div>
+        </div>
+
+        <!-- Card 4: GitHub -->
+        <!-- EDIT HERE: Replace data-link with your GitHub profile link! -->
+        <div class="contact-memo-card tear-slip memo-green" data-type="link"
+          data-link="https://github.com/Malavegeetanjali0481" data-info="https://github.com/Malavegeetanjali0481"
+          title="Click to open GitHub">
+          <div class="memo-tape tape-green"></div>
+          <div class="memo-icon-bubble">🐙</div>
+          <h3 class="slip-name memo-title">GitHub</h3>
+          <p class="memo-detail">Explore Repositories</p>
+          <div class="memo-action-btn">
+            <span>View Profile</span>
+            <span class="action-arrow">↗</span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- =========================================================
+       FLOATING INTERACTIVE CONTROLS
+       ========================================================= -->
+  <!-- Circular 'SCROLL TO TOP' Stamp Badge -->
+  <button id="scrollTopBtn" class="scroll-top-stamp" title="Scroll to Top">
+    <svg viewBox="0 0 100 100" width="80" height="80">
+      <path id="textCirclePath" d="M 50, 50 m -35, 0 a 35,35 0 1,1 70,0 a 35,35 0 1,1 -70,0" fill="none" />
+      <text font-family="'Courier Prime', monospace" font-size="9" font-weight="bold" fill="#1E1E1E" letter-spacing="2">
+        <textPath href="#textCirclePath" startOffset="0%">• SCROLL TO TOP • SCROLL TO TOP </textPath>
+      </text>
+      <circle cx="50" cy="50" r="18" fill="#FDFBF2" stroke="#1E1E1E" stroke-width="2" />
+      <path d="M 50 42 L 44 49 L 48 49 L 48 58 L 52 58 L 52 49 L 56 49 Z" fill="#1E1E1E" />
+    </svg>
+  </button>
+
+  <!-- Palette Theme Accent Switcher -->
+  <button id="paletteThemeBtn" class="palette-theme-badge" title="Switch Theme Tint">
+    <span class="palette-icon">🎨</span>
+  </button>
+
+  <!-- Notification Toast for Copied Info / Actions -->
+  <div id="toastNotification" class="toast-message">
+    <span class="toast-icon">✂️</span>
+    <span id="toastText">Copied to clipboard!</span>
+  </div>
+
+  <!-- Main JavaScript File -->
+  <script src="script.js"></script>
+</body>
+
+</html>
